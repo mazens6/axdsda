@@ -1,0 +1,72 @@
+body{
+   background-image: url(image/g.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+form{
+    width: 450px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+h2{
+   color: gold;
+   font-weight: bold;
+   font-size: 40px;
+   text-align: center;
+   font-family: Arial;
+   margin-top: 100px;
+}
+
+
+input[type=email] , [type=password]{
+  
+  outline: none;
+  border: none;
+  width: 250px;
+  height: 35px;
+  border-bottom: 2px solid gold;
+  background: none;
+  padding: 5px;
+  color: white;
+  padding-top: 20px;
+  margin-left: 90px;
+}
+
+
+
+input[type="checkbox"]{
+     margin: 15px 0 20px 80px;
+}
+
+
+
+
+input[type="checkbox"]::after{
+    content: "Save Your info";
+    color: white;
+    line-height: 1;
+    position: absolute;
+    left: 560px;
+}
+
+input[type="submit"]{
+    background-color: rgb(26, 24, 24);
+    width: 150px;
+    height: 50px;
+    margin-left: 150px;
+    border: 1px solid black;
+    border-radius: 7px;
+    color: gold;
+    font-size: 30px;
+    outline: none;
+    font-family: Arial;
+}
+
+input[type="submit"]:hover{
+    background-color: gold;
+    color: black;
+}
